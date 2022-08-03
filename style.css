@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(90deg,rgb(219, 223, 241),rgba(235, 200, 160, 0.2)),url('https://media.istockphoto.com/photos/put-more-in-get-more-out-picture-id1291318636');
+    background-size: cover;
+}
+
+nav{
+    width: 25%;
+    height: 100vh;
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+}
+.logo{
+    font-size: 3em;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    margin: 10px auto;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.4s ease;
+}
+
+
+.menu a:hover{
+    background-color: rgb(193, 193, 202);
+    border-radius: 12px;
+}
+
+.menu i{
+    margin: 0 5px;
+}
+
+.s-icon{
+    position: absolute;
+    bottom: 8%;
+}
+
+.s-icon i{
+    color: rgb(107, 102, 102);
+    font-size: 22px;
+    cursor: pointer;
+    padding: 2px;
+    margin: 12px;
+    border-radius: 50%;
+    transition: 0.5s ease ;
+    
+}
+
+.s-icon i:hover{
+    transform: translateY(-20px);
+    background-color: white;
+    
+}
+
+.contactForm{
+    padding: 10% 20%;
+    width: 100%;
+    height: 100vh;
+    background:url('https://media.istockphoto.com/photos/woman-works-at-home-and-uses-a-smart-phone-and-notebook-computer-picture-id1284435908?s=2048x2048');
+    background-size: cover;
+
+}
+
+.conHeader{
+    margin-left: 40%;
+    
+}
+
+.contactForm form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm label{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contactForm input{
+    margin: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.btn{
+    /* border: 2px solid gray; */
+    border-radius: 3px;
+    text-align: center;
+}
+.btn input{
+    border: none;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.btn input:hover{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
